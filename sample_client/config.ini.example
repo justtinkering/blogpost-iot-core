@@ -1,0 +1,8 @@
+[DEFAULT]
+endpoint = IOT_ENDPOINT_ADDRESS
+out_cert_file = certificates/device_certificate.pem
+out_key_file = certificates/device_privatekey.pem
+enrollment_cert_file = certificates/iot-provisioning-certificate.pem
+enrollment_key_file = certificates/iot-provisioning-privatekey.pem
+root_ca = certificates/AmazonRootCA1.pem
+fleet_template_name = FLEET_PROVISIONING_TEMPLATE_NAME

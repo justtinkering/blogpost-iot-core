@@ -35,3 +35,17 @@ override.tf.json
 # Ignore CLI configuration files
 .terraformrc
 terraform.rc
+
+# Ignore Python cache
+**/__pycache__
+
+# Ignore device and provisioning certificates and config.ini
+sample_client/certificates/device_*.pem
+sample_client/certificates/iot-provisioning-*
+sample_client/config.ini
+
+# Ignore macOS files
+.DS_Store
+
+# Ignore ZIP files
+**/*.zip
